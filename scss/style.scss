@@ -1,10 +1,45 @@
-$main-color: #0db;
+$main-color: #333;
 
-.nav {
+.header {
     
-    padding: 10px;
+	align-items: center;
+	justify-content: space-between;
+	height: 90px;
+	padding: 30px 70px;
 
-    a {
-        color: $main-color;
-    }
+	.header__logo {
+		line-height: 1;
+	}
+
+	.gnav__list {
+		display: flex;
+		position: relative;
+		align-items: center;
+		justify-content: center;
+		column-gap: 30px;
+	}
+	
+	.gnav__item {
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 1;
+		letter-spacing: 0.05em;
+	}
+	
+	.gnav__link {
+		color: $main-color;
+		text-decoration: none;
+	}
+	
+	.gnav__link:hover {
+		color: $main-color;
+	}
+	
+	.gnav__link--active {
+		color: $main-color;
+	}
+	
+	.btn-menu {
+		display: none;
+	}
 }
