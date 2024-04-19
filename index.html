@@ -21,15 +21,13 @@
       <div class="header__nav">
         <nav class="gnav">
           <ul class="gnav__list d-flex">
-            <li class="gnav__item"><a class="gnav__link gnav__link--active" href=".">ホーム</a></li>
+            <li class="gnav__item"><a class="gnav__link gnav__link--active" href="." >ホーム</a></li>
             <li class="gnav__item"><a class="gnav__link" href="#">メッセージ</a></li>
-            <li class="gnav__item"><a class="gnav__link" href="#">会社概要</a></li>
+            <li class="gnav__item">
+              <a class="gnav__link" href="#" data-toggle="modal" data-target="#testModal">会社概要</a>
+            </li>
           </ul>
         </nav>
-        <button type="button" id="js-btn-menu" class="btn-menu">
-          <span class="btn-menu__line"></span>
-        </button>
-      </div>
     </header>
     <!-- /header -->
 
@@ -92,6 +90,58 @@
         </div>
       </section>
       <!-- /news -->
+      <!-- service -->
+      <section class="service">
+        <div class="container">
+          <div class="service__heading">
+            <h2 class="heading-primary">サービス</h2>
+          </div>
+          <div class="service__body">
+            <div class="service-list">
+              <div class="service-list__item">
+                <figure class="service-list__img-wrapper">
+                  <span class="service-list__img material-icons-round">
+                    work
+                  </span>
+                </figure>
+                <div class="service-list__body">
+                  <div class="service-list__title">人材紹介業</div>
+                  <div class="service-list__text">
+                    <p>新規サイトの制作はもちろんサイトリニューアルやランディングページの制作も可能です。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="service-list__item">
+                <figure class="service-list__img-wrapper">
+                  <span class="service-list__img material-icons-round">
+                    location_city
+                  </span>
+                </figure>
+                <div class="service-list__body">
+                  <div class="service-list__title">スクール事業</div>
+                  <div class="service-list__text">
+                    <p>オンラインでWeb制作を学べるスクールを運営しています。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="service-list__item">
+                <figure class="service-list__img-wrapper">
+                  <span class="service-list__img material-icons-round">
+                    desktop_windows
+                  </span>
+                </figure>
+                <div class="service-list__body">
+                  <div class="service-list__title">Webメディア運営</div>
+                  <div class="service-list__text">
+                    <p>人事系メディアやWebデザイン関連のメディアなどを複数運営しています。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /service -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
