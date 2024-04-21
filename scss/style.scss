@@ -1,4 +1,5 @@
 $main-color: #333;
+$hover-color: #ffc2c2;
 
 .header {
     
@@ -57,7 +58,7 @@ $main-color: #333;
 	.mv__titleArea {
 		color: #fff;
 		text-align: center;
-  	}
+  }
 
 	.mv__title {
 		font-size: 160px;
@@ -72,8 +73,57 @@ $main-color: #333;
 		line-height: 1;
 		letter-spacing: 0.1em;
 		}
+}
+  
+/*--------------------------------
+ニュース
+---------------------------------*/
+.news__inner {
+	display: flex;
+	column-gap: 90px;
+  
+  .news__body {
+	flex: 1;
+
+	.news-list__link {
+		display: flex;
+		text-decoration: none;
+		color: $main-color;
 	}
+
+	.news-list__link:hover {
+		color: $hover-color;
+	}
+
+	.news-list__item:last-child {
+		margin-bottom: 0;
+	}
+
+		.news-list {
+			ul {
+				li {
+				font-size: 15px;
+				line-height: 1.8;
+				margin-bottom: 15px;
+				padding-bottom: 15px;
+				border-bottom: 1px solid #e8e8e8;
+				}
+			}
+		}
+  }
+
+	.news-list__title {
+		font-size: 15px;
+		line-height: 1.8;
+		}
+		
+		.news-list__date {
+		margin-right: 20px;
+		}
   
-  
-  
-  
+}
+
+
+
+
+
