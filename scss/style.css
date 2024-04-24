@@ -41,23 +41,26 @@
   align-items: center;
   justify-content: center;
   height: 600px;
-  background-image: url(img/pc_mv.jpg);
+  background-image: url(../img/pc_mv.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
-.mv .mv__titleArea {
+
+.mv__titleArea {
   color: #fff;
   text-align: center;
 }
-.mv .mv__title {
+
+.mv__title {
   font-size: 160px;
   font-weight: bold;
   line-height: 1;
   text-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
   margin-bottom: 10px;
 }
-.mv .mv__subtitle {
+
+.mv__subtitle {
   font-size: 24px;
   line-height: 1;
   letter-spacing: 0.1em;
@@ -186,7 +189,7 @@
 
 .service-list__img {
   font-size: 48px;
-  color: var(--main-color);
+  color: #333;
   vertical-align: bottom;
 }
 
