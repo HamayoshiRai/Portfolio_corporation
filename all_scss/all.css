@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/*--------------------------------
+ 全体
+---------------------------------*/
+body {
+  font-family: "Roboto", "Noto Sans JP", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+a {
+  color: #333;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+/*--------------------------------
+ レイアウト
+---------------------------------*/
+.wrapper {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.content {
+  display: grid;
+  padding: 60px 0 100px;
+  row-gap: 80px;
+}
+
+/*--------------------------------
+ 見出し
+---------------------------------*/
+.heading-primary {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  color: #333;
+}
+
+/*--------------------------------
+ テーブル
+---------------------------------*/
+.table-type01 {
+  width: 100%;
+  font-size: 15px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table-type01 tr {
+  border-bottom: solid 1px #ddd;
+}
+
+.table-type01 th,
+.table-type01 td {
+  text-align: left;
+  padding: 30px;
+}
+
+.table-type01 th {
+  width: 20%;
+}
+
+.table-type01 p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.table-type01 ul {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=all.css.map */
