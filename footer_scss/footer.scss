@@ -7,7 +7,7 @@ $hover-color: #ffc2c2;
 .footer {
   color: #fff;
   padding: 60px 20px 50px;
-  background-color: var(--main-color);
+  background-color: $main-color;
 }
 
 .footer-nav {
@@ -27,7 +27,7 @@ $hover-color: #ffc2c2;
 }
 
 .footer-nav__link {
-  color: var(--text-color);
+  color: $main-color;
   color: #fff;
   text-decoration: none;
 }
