@@ -70,6 +70,9 @@
   .page-header__title {
     font-size: 28px;
   }
+  .service-list {
+    display: block;
+  }
   /* 下層ページ：メッセージ */
   .message__title {
     font-size: 24px;

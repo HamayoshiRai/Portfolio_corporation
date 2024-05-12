@@ -15,33 +15,39 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
   </head>
   <body>
+    <!-- wrapper-->
+  <div class="wrapper">
+
     <!-- header -->
-    <header class="header d-flex">
+    <header class="header">
       <div class="header__logo">
         <a href="."><img src="img/logo.png" alt="START"></a>
       </div>
       <div class="header__nav">
         <nav class="gnav">
-          <ul class="gnav__list d-flex">
-            <li class="gnav__item"><a class="gnav__link gnav__link--active" href="." >ホーム</a></li>
-            <li class="gnav__item"><a class="gnav__link" href="#">メッセージ</a></li>
-            <li class="gnav__item">
-              <a class="gnav__link" href="#" data-toggle="modal" data-target="#testModal">会社概要</a>
-            </li>
+          <ul class="gnav__list">
+            <li class="gnav__item"><a class="gnav__link gnav__link--active" href=".">ホーム</a></li>
+            <li class="gnav__item"><a class="gnav__link" href="message.html">メッセージ</a></li>
+            <li class="gnav__item"><a class="gnav__link" href="company.html">会社概要</a></li>
           </ul>
         </nav>
+        <button type="button" id="js-btn-menu" class="btn-menu">
+          <span class="btn-menu__line"></span>
+        </button>
+      </div>
     </header>
     <!-- /header -->
 
+    <!-- mv -->
     <div class="mv">
       <div class="mv__titleArea">
         <h2 class="mv__title">START</h2>
         <div class="mv__subtitle">仕事に最高のスタートを</div>
       </div>
     </div>
+    <!-- /mv -->
 
     <!-- content -->
     <main class="content">
@@ -95,6 +101,7 @@
         </div>
       </section>
       <!-- /news -->
+
       <!-- service -->
       <section class="service">
         <div class="container">
@@ -141,48 +148,17 @@
                     <p>人事系メディアやWebデザイン関連のメディアなどを複数運営しています。</p>
                   </div>
                 </div>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                  詳細
-                </button>
-
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Webメディア詳細</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        <h3>Webメディア</h3>
-                        「仕事」をきっかけに、人生の新しいスタートを！<br>
-                        でも仕事は人生の大事な基盤のように思っています。<br>
-                        もちろん仕事イコール人生ではありませんが、<br>
-                        仕事をどれだけ楽しめるかで人生幸せに生きれるか決まると思っています。<br>
-                        私たちは全力で「それ」をサポートいたします！
-                        <img src="./img/modal.jpg" alt="">
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cancel</button>
-                        <button type="button" class="btn btn-primary">OK</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      </main>
       <!-- /service -->
 
-      <!-- footer -->
+    </main>
+    <!-- /content -->
+
+    <!-- footer -->
     <footer class="footer">
       <div class="container">
         <nav class="footer-nav">
@@ -196,6 +172,9 @@
       </div>
     </footer>
     <!-- /footer -->
+
+  </div>
+  <!-- /wrapper -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
