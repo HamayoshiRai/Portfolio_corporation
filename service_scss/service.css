@@ -61,6 +61,10 @@
   float: right;
 }
 
+.md-50 {
+  font-size: 50px;
+}
+
 @media screen and (max-width: 767px) {
   /* 下層ページ：ヘッダー */
   .page-header {
