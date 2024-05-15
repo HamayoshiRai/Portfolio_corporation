@@ -39,11 +39,14 @@ $hover-color: #ffc2c2;
 	.gnav__link--active {
 		color: $main-color;
 	}
-	
+}
+
+@media screen and (min-width: 768px) {
 	.btn-menu {
 		display: none;
 	}
 }
+
 
 @media screen and (max-width: 767px) {
 	/* ヘッダー */

@@ -33,10 +33,12 @@
 .header .gnav__link--active {
   color: #333;
 }
-.header .btn-menu {
-  display: none;
-}
 
+@media screen and (min-width: 768px) {
+  .btn-menu {
+    display: none;
+  }
+}
 @media screen and (max-width: 767px) {
   /* ヘッダー */
   .header {
@@ -48,7 +50,6 @@
     width: 107px;
   }
   .gnav {
-    display: none;
     position: fixed;
     top: 0;
     right: 0;
