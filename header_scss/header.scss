@@ -1,4 +1,4 @@
-$main-color: #333;
+$main-color: #566081;
 $hover-color: #ffc2c2;
 
 .header {
@@ -28,7 +28,7 @@ $hover-color: #ffc2c2;
 	}
 	
 	.gnav__link {
-		color: $main-color;
+		color: #525252;
 		text-decoration: none;
 	}
 	
@@ -37,7 +37,7 @@ $hover-color: #ffc2c2;
 	}
 	
 	.gnav__link--active {
-		color: $main-color;
+		color: #ccc;
 	}
 }
 
@@ -91,6 +91,7 @@ $hover-color: #ffc2c2;
 
   .gnav__link--active {
     opacity: 0.6;
+    color: #fff
   }
 
   .btn-menu {

@@ -24,14 +24,14 @@
   letter-spacing: 0.05em;
 }
 .header .gnav__link {
-  color: #333;
+  color: #525252;
   text-decoration: none;
 }
 .header .gnav__link:hover {
-  color: #333;
+  color: #566081;
 }
 .header .gnav__link--active {
-  color: #333;
+  color: #ccc;
 }
 
 @media screen and (min-width: 768px) {
@@ -50,13 +50,14 @@
     width: 107px;
   }
   .gnav {
+    display: none;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 10;
     width: 180px;
     height: 100%;
-    background-color: #333;
+    background-color: #566081;
     box-shadow: -10px 0 35px -20px rgba(0, 0, 0, 0.25);
   }
   .gnav__list {
@@ -75,6 +76,7 @@
   }
   .gnav__link--active {
     opacity: 0.6;
+    color: #fff;
   }
   .btn-menu {
     display: flex;
@@ -91,7 +93,7 @@
     border: none;
     outline: none;
     background: none;
-    background-color: #333;
+    background-color: #566081;
     cursor: pointer;
     -webkit-appearance: none;
        -moz-appearance: none;
