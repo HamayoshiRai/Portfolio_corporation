@@ -81,7 +81,8 @@ $hover-color: #ffc2c2;
 	}
 
 	.service-list {
-		display: block;
+		row-gap: 20px;
+    grid-template-columns: 1fr;
 	}
 
 	/* 下層ページ：メッセージ */
