@@ -66,6 +66,34 @@
 }
 
 @media screen and (max-width: 767px) {
+  /* サービス */
+  .service__heading {
+    margin-bottom: 20px;
+  }
+  .service__heading::before {
+    top: -2px;
+    right: -10px;
+    font-size: 70px;
+  }
+  .service-list {
+    row-gap: 20px;
+    grid-template-columns: 1fr;
+  }
+  .service-list__item {
+    padding: 40px 30px;
+  }
+  .service-list__img-wrapper {
+    margin-bottom: 5px;
+  }
+  .service-list__img {
+    font-size: 60px;
+  }
+  .service-list__title {
+    font-size: 16px;
+  }
+  .service-list__text {
+    margin-top: 10px;
+  }
   /* 下層ページ：ヘッダー */
   .page-header {
     height: 160px;
