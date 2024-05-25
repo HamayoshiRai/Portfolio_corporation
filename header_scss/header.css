@@ -6,10 +6,12 @@
   height: 90px;
   padding: 30px 70px;
 }
-.header .header__logo {
+
+.header__logo {
   line-height: 1;
 }
-.header .gnav__list {
+
+.gnav__list {
   display: flex;
   position: relative;
   align-items: center;
@@ -17,20 +19,24 @@
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
-.header .gnav__item {
+
+.gnav__item {
   font-size: 16px;
   font-weight: bold;
   line-height: 1;
   letter-spacing: 0.05em;
 }
-.header .gnav__link {
+
+.gnav__link {
   color: #525252;
   text-decoration: none;
 }
-.header .gnav__link:hover {
+
+.gnav__link:hover {
   color: #566081;
 }
-.header .gnav__link--active {
+
+.gnav__link--active {
   color: #ccc;
 }
 
@@ -47,7 +53,7 @@
     padding: 20px;
   }
   .header__logo {
-    width: 107px;
+    width: 50px;
   }
   .gnav {
     display: none;
@@ -98,6 +104,7 @@
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
+    position: fixed;
   }
   .btn-menu__line {
     display: block;

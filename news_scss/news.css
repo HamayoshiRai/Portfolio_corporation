@@ -58,6 +58,9 @@
   .news-list__title {
     line-height: 1.6;
   }
+  .news-list__list {
+    padding-left: 0;
+  }
   .news-list__date {
     margin-right: 0;
   }
