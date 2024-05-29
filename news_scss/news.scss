@@ -17,6 +17,10 @@ $hover-color: #ffc2c2;
 		display: flex;
 		text-decoration: none;
 		color: $main-color;
+
+		.news-list__date {
+			margin-right: 20px;
+			}
 	}
 
 	.news-list__link:hover {
@@ -43,10 +47,6 @@ $hover-color: #ffc2c2;
 	.news-list__title {
 		font-size: 15px;
 		line-height: 1.8;
-		}
-		
-		.news-list__date {
-		margin-right: 20px;
 		}
 		
 		/* ニュース */
